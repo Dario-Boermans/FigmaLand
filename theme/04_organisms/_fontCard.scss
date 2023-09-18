@@ -1,0 +1,63 @@
+@import "theme/01_fundaments/colors";
+
+.fontTitle{
+  color:$lightTextColor;
+  text-align: center;
+  font-size: 50px;
+  margin-bottom: 37px !important;
+}
+
+.font-textWrapper
+{
+  width: unset;
+}
+@media screen and (min-width: $desktopView)
+{
+  .fontContainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: nowrap;
+    border-radius: 32px;
+    background-color: $greyBackgroundColor;
+    width: 80%;
+    height: 370px;
+    margin: auto;
+    justify-content: space-between;
+  }
+
+  .fontTitle{
+    text-align: left;
+    margin-left:10%;
+  }
+
+  .font-textWrapper
+  {
+    width: 50%;
+  }
+}
+.fontImage{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 104px;
+  }
+  
+  .fontImage-image{
+    margin-top: 106px;
+    max-width: 100%;
+  }
+  
+  @media screen and (min-width: $desktopView)
+  {
+    .fontImage-image{
+      border-radius: 0 0 32px 0;
+    }
+  
+    .fontImage{
+      height: 100%;
+      justify-content: flex-end;
+      padding: 0px;
+      width: 50%;
+    }
+  }

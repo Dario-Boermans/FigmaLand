@@ -1,0 +1,15 @@
+@import "01_fundaments/colors";
+@import "05_pages/header";
+@import "05_pages/feature";
+@import "05_pages/content";
+@import "05_pages/gallery";
+@import "05_pages/partner";
+@import "05_pages/testimonials";
+@import "05_pages/fonts";
+@import "05_pages/footer";
+
+.maxWidth{
+  max-width: $max-width;
+  margin: auto;
+  background-color: $darkBackgroundColor;
+}

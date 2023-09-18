@@ -1,0 +1,58 @@
+@import "theme/01_fundaments/colors";
+
+/* header */
+
+.nav-logo{
+  display: inline-block;
+  width: 150px;
+  margin:20px;
+  background-color: $darkBackgroundColor;
+}
+
+.imageSection{
+  background-color: $darkBackgroundColor;
+  width: 100%;
+  margin-bottom: -3px;
+  position: relative;
+
+  &:after{
+    content: '';
+    height: 70%;
+    display: block;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 27%;
+    background: linear-gradient(180deg, rgba(30, 30, 30, 0) 0%, #000000 100%);
+  }
+}
+.imageOne{
+  width: 100%;
+}
+@media screen and (min-width: $desktopView)
+{
+  .imageSection{
+
+    &:after{
+      top: 249px;
+      height: 70%;
+    }
+  }
+}
+
+.galleryImage{
+  border-radius: 12px;
+  width: 330px;
+  height: 285px;
+  margin-bottom: 33px;
+}
+@media screen and (min-width: $desktopView)
+{
+  .galleryImage{
+    width: auto;
+    max-height: 286px;
+    margin-right: 16.5px;
+    margin-left: 16.5px;
+    margin-bottom: 44px;
+  }
+}

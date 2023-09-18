@@ -1,0 +1,40 @@
+@import "theme/01_fundaments/colors";
+
+.galleryImages{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 44px;
+  }
+
+  .galleryDesktop{
+    display: none;
+  }
+  
+  
+  @media screen and (min-width: $desktopView)
+  {
+   .galleryImages{
+     flex-direction: row;
+     justify-content: center;
+     flex-wrap: wrap;
+   }
+
+   .galleryDesktop{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+  }
+  .galleryDesktopImage{
+    border-radius: 12px;
+    width: auto;
+    max-height: 286px;
+    margin-right: 16.5px;
+    margin-left: 16.5px;
+    margin-bottom: 44px;
+}
+}
+
+  

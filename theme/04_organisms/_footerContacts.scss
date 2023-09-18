@@ -1,0 +1,51 @@
+@import "theme/01_fundaments/colors";
+
+.ul{
+    color: $lightTextColor;
+    list-style-type: none;
+    margin-top: -30px;
+  }
+.ul-items{
+  margin-top: 10px;
+}
+  
+.lists{
+  padding-bottom: 75px;
+  list-style-type: none;
+}
+@media screen and (min-width: $desktopView)
+{
+  .lists{
+    display: flex;
+    list-style-type: none;
+  }
+}
+
+.contacts
+{
+  color: $lightTextColor;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 16px;
+}
+.contactsItem{
+  align-self: center;
+  margin-left: 10px;
+}
+  
+.contactsImg1{
+  display: flex; 
+  height: auto;
+  width: auto;
+  align-self: center;
+  margin-left: -10px;
+  margin-right: -5px;
+}
+.contactsImg2{
+  display: flex; 
+  height: auto;
+  width: auto;
+  align-self: center;
+  padding-left: 2px;
+  margin-right: 5px;
+}

@@ -1,0 +1,17 @@
+@import "theme/01_fundaments/colors";
+@import "theme/04_organisms/testimonialsCards";
+
+.testimonials{
+    background-color: $darkBackgroundColor;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+  }
+  @media screen and (min-width: $desktopView)
+  {
+    .testimonials{
+      padding-left: 98.5px;
+      padding-right: 98.5px;
+    }
+  }

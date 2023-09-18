@@ -1,0 +1,37 @@
+@import "theme/01_fundaments/colors";
+
+.contentCards{
+    background-color: white;
+    text-align: center;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto auto 33px;
+    border-radius:10px;
+    padding-bottom: 40px;
+    padding-top: 40px;
+  }
+  
+  .cardImage{
+    max-width: 80%;
+    margin-top: 30px;
+  }
+  
+  .contentTitle{
+    font-weight: 500;
+    margin-bottom: 20px;
+    width: 50%;
+  }
+  @media screen and (min-width: $desktopView)
+  {
+    .cards{
+      display:flex;
+      flex-direction: row;
+      justify-content: center;
+    }
+    .contentCards{
+      width: 30%;
+      margin: 0 16.5px 0 16.5px;
+    }
+  }

@@ -1,0 +1,49 @@
+@import "theme/01_fundaments/colors";
+
+.testimonialCard{
+    width: 70%;
+    border: 3px solid #DEDEDE;
+    border-radius: 25px;
+    margin-bottom: 23px;
+    padding-bottom: 40px;
+  }
+  .testimonialCards{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+  }
+  
+  .testimonialText{
+    color:$lightTextColor;
+    width: 80%;
+    margin:auto;
+  }
+  @media screen and (min-width: $desktopView)
+  {
+    .testimonialCard{
+      width: 40%;
+      margin-left: 12px;
+      margin-right: 12px;
+    }
+  
+    .testimonialCards{
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  }
+  .testimonial{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    margin-left:10%;
+  }
+
+  .cardTitle{
+    color: $lightTextColor;
+    margin-left: 20px;
+    margin-top: -5px;
+}

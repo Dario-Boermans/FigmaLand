@@ -1,0 +1,65 @@
+.images-img
+{
+  margin-left:25px;
+  margin-right: 25px;
+}
+.images-spacing{
+  margin-top: 30px;
+}
+.partnersContainer{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.slideshowButton{
+  display: none;
+}
+@media screen and (min-width: $desktopView)
+{
+  .imagesContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+ .images{
+   flex-direction: row;
+   align-items: center;
+   flex-wrap: nowrap;
+   align-self: center;
+   margin: 0 0 0px 30px;
+ }
+ .partnersContainer{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+ }
+}
+@media screen and (min-width: $tabletView)
+{
+  .imagesContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+ .images{
+   flex-direction: row;
+   align-items: center;
+   flex-wrap: nowrap;
+   align-self: center;
+   margin: 0 0 0px 30px;
+ }
+ .partnersContainer{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+ }
+ .images-spacing{
+  margin-top: 0px;
+}
+}

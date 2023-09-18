@@ -1,0 +1,116 @@
+@import "theme/01_fundaments/typografie";
+@import "theme/01_fundaments/colors";
+
+.title{
+  color: $lightTextColor;
+  text-align: center;
+}
+.title-spacing{
+  color: $lightTextColor;
+  text-align: center;
+  padding-bottom: 37px;
+}
+.title-extraSpacing{
+  margin-left: 127.5px;
+  margin-right: 127.5px;
+  color: $lightTextColor;
+  text-align: center;
+  padding-bottom: 37px;
+}
+.title-marginbottom{
+  margin-left: 127.5px;
+  margin-right: 127.5px;
+  color: $lightTextColor;
+  text-align: center;
+  margin-bottom: 60px;
+}
+.paragraph{
+  margin-left: 83.5px;
+  margin-right: 83.5px;
+  color: $lightTextColor;
+  text-align: center;
+}
+.paragraph-small{
+  font-size: 20px;
+  line-height: 30px;
+  color: $lightTextColor;
+  text-align: center;
+}
+.paragraph-margin{
+  margin-left: 83px;
+  margin-right: 83px;
+  color: $lightTextColor;
+  text-align: center;
+  margin-bottom: 54px;
+}
+.paragraph-left-advanced{
+  color: $lightTextColor;
+  text-align: left;
+  padding-bottom: 25px;
+}
+.paragraph-dark{
+  margin-left: 30px;
+  margin-right: 30px;
+  color: $darkTextColor;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.subTitle{
+  color: $lightTextColor;
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+
+.center{
+  width: 80%;
+  margin:auto;
+}
+@media screen and (min-width: $desktopView)
+{
+  .paragraph-left-advanced
+  {
+    margin-right: 0px;
+  }
+  .title-spacing{
+    margin:0;
+  }
+  .paragraph-dark{
+    margin-left: 83.5px;
+    margin-right: 83.5px;
+  }
+
+  .center{
+    width: 50%;
+  }
+}
+
+.textContentFeatures
+{
+  margin-left: 73.5px;
+  margin-right: 73.5px;
+  text-align: center;
+  margin-bottom: -3px;
+}
+.title{
+  margin-bottom: 17px;
+  padding: 67px 10px 10px;
+}
+
+@media screen and (min-width: $desktopView)
+{
+  .textContentFeatures{
+    margin-left: 257.5px;
+  }
+}
+
+.featuresSubTitle{
+  color: $lightTextColor;
+  align-self: center;
+  font-size: 20px;
+  width: 45%;
+  text-align: left;
+  padding: 10px;
+  margin-bottom: 10px;
+  line-height: 30px;
+  font-weight: 500;
+}

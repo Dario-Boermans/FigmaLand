@@ -1,0 +1,24 @@
+@import "theme/04_organisms/footerContacts";
+
+.footer{
+  background-color: $darkBackgroundColor;
+  padding-left:70px;
+  margin-bottom: 80px;
+}
+
+.footerIcons{
+  margin-right:28px;
+}
+@media screen and (min-width: $desktopView)
+{
+ .listContainer{
+  margin-right: 75px;
+ }
+  .footer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+  }
+}

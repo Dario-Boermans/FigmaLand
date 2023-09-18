@@ -1,0 +1,17 @@
+@import "theme/04_organisms/featureText";
+@import "theme/02_atoms/buttons";
+@import "theme/01_fundaments/colors";
+
+.featuresPage{
+  background-color: $darkBackgroundColor;
+  padding-bottom: 62px;
+  padding-top: 62px;
+  margin-bottom: -3px;
+}
+@media screen and (min-width: $desktopView)
+{
+  .features{
+    width: 50%;
+    margin-left:22%
+  }
+}

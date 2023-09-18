@@ -1,0 +1,16 @@
+@import "theme/01_fundaments/colors";
+@import "theme/04_organisms/fontCard";
+
+.fonts{
+  background-color: $darkBackgroundColor;
+  padding-top: 104px;
+  margin-bottom: -3px;
+}
+@media screen and (min-width: $desktopView)
+{
+  .fonts{
+    background-color: $darkBackgroundColor;
+    padding-top: 200px;
+    margin-bottom: 140px;
+  }
+}

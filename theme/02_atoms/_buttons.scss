@@ -1,0 +1,102 @@
+@import "theme/01_fundaments/colors";
+
+.darkButton{
+  color: $lightTextColor;
+  border-color: $lightBackgroundColor;
+  background-color: $darkBackgroundColor;
+  padding: 13.5px 46px 13.5px 46px;
+
+  &:hover {
+    background-color: $lightTextColor;
+    color: $darkBackgroundColor;
+  }
+}
+.darkButton-header{
+  @extend .darkButton;
+}
+.darkButton-gallery{
+  @extend .darkButton;
+}
+
+.partnerButton{
+  display: flex;
+  padding-top: 57px;
+  padding-bottom: 57px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.primaryButton{
+  background-color: $primaryColor;
+  border: none;
+  color: $lightTextColor;
+  padding: 13.5px 46px 13.5px 46px;
+  margin: auto;
+  &:hover {
+    background-color: $lightTextColor;
+    color: $primaryColor;
+    border: $primaryColor 1px solid;
+  }
+}
+.primaryButton-spacing{
+  background-color: $primaryColor;
+  border: none;
+  color: $lightTextColor;
+  padding: 13.5px 46px 13.5px 46px;
+  margin-bottom: 21px;
+  &:hover {
+    background-color: $lightTextColor;
+    color: $primaryColor;
+    border: $primaryColor 1px solid;
+  }
+}
+
+.primaryButton-margin{
+  background-color: $primaryColor;
+  border: none;
+  color: $lightTextColor;
+  padding: 13.5px 46px 13.5px 46px;
+  display:flex;
+  margin: auto;
+  &:hover {
+    background-color: $lightTextColor;
+    color: $primaryColor;
+    border: $primaryColor 1px solid;
+  }
+}
+
+.headerButton{
+  padding: 11.5px 43px;
+  margin-left: 50px;
+}
+
+@media screen and (min-width: $desktopView)
+{
+  .primaryButton-spacing{
+    margin-bottom: 0px;
+    margin-right: 17.5px;
+  }
+  .darkButton-home{
+    margin-left: 17.5px;
+  }
+  .primaryButton-margin{
+    margin-left: 55px;
+  }
+}
+
+.buttonGroup{
+  display: flex;
+  padding-top: 57px;
+  padding-bottom: 57px;
+  flex-direction: column;
+  align-items: center;
+  }
+ 
+  @media screen and (min-width: $desktopView)
+  {
+     .buttonGroup{
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+     }
+  }

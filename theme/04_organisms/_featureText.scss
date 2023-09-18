@@ -1,0 +1,61 @@
+@import "theme/02_atoms/images";
+@import "theme/02_atoms/buttons";
+@import "theme/02_atoms/text";
+@import "theme/01_fundaments/colors";
+
+.imageContainer{
+ display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-bottom: 200px;
+  margin-top: 27px;
+}
+
+.featuresContainer{
+  display: flex;
+  flex-direction: column;
+  width: 65%;
+  margin: auto;
+}
+
+.feature{
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+
+.featureTitle{
+  width: unset !important;
+}
+.featureImageOne{
+position: absolute;
+  margin-left: -40px;
+}
+.featureImageTwo{
+  position: relative;
+  left: 0px;
+  bottom: -200px;
+}
+
+.icons{
+  padding-right: 10px;
+}
+@media screen and (min-width: $desktopView)
+{
+ .container{
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+ }
+  .featureImageOne{
+    margin-left:0px;
+  }
+  .featureImageTwo{
+    position: relative;
+    left: 314px;
+    top: 450px;
+  }
+  .imageContainer{
+    padding-bottom: 400px;
+  }
+}
